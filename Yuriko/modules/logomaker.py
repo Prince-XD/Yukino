@@ -220,5 +220,5 @@ __help__ = """
 
 ✗  /edit - `<reply photo> to edit image.`
 
-*✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: [Hiro](https://t.me/YukinoXbot)!*
+*✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: [Hiro](https://t.me/YukinoXbot)*
 """
