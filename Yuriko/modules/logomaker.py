@@ -196,7 +196,7 @@ async def logo_(event):
         await tbot.send_file(
             event.chat_id,
             file=flnme,
-            caption="Logo by [TeamDeeCode](https://t.me/TeamDeeCode)",
+            caption="Logo by [YUKINO](https://t.me/YukinoXbot)",
             force_document=False,
         )
         os.remove(flnme)
@@ -220,5 +220,5 @@ __help__ = """
 
 ✗  /edit - `<reply photo> to edit image.`
 
-*✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: Tᴇᴀᴍ DᴇCᴏᴅᴇ!*
+*✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: [Hiro](https://t.me/YukinoXbot)!*
 """
