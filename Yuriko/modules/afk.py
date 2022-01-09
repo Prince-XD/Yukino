@@ -72,7 +72,7 @@ def no_longer_afk(update: Update, context: CallbackContext):
                 "{} is back online!",
                 "{} is finally here!",
                 "Welcome back! {}",
-                "Where is {}?\nIn the chat!",
+                "Where is {}?\nIn the chat!\nTime you were AFK for: {}".format(firstname, end_afk_time))",
             ]
             chosen_option = random.choice(options)
             update.effective_message.reply_text(chosen_option.format(firstname))
@@ -135,11 +135,11 @@ def check_afk(update, context, user_id, fst_name, userc_id):
         if int(userc_id) == int(user_id):
             return
         if not user.reason:
-            res = "{} is afk".format(fst_name)
+            res = "{} is AFK!\nSince: {}".format(fst_name, since_afk)
             update.effective_message.reply_text(res)
         else:
-            res = "{} is afk.\nReason: <code>{}</code>".format(
-                html.escape(fst_name), html.escape(user.reason)
+            res = "{} is afk.\nReason: <code>{}</code> \n{}\nSince: {}".format(
+                html.escape(fst_name), html.escape(user.reason), since_afk
             )
             update.effective_message.reply_text(res, parse_mode="html")
 
