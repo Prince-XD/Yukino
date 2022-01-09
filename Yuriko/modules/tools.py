@@ -53,5 +53,5 @@ __help__ = """
 
 ✗  /tgt - `Get Telegraph Link of Replied Text` 
 
-*✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: Tᴇᴀᴍ DᴇCᴏᴅᴇ!*
+
 """
