@@ -90,7 +90,7 @@ PM_START_TEXT = """
 × *Uᴘᴛɪᴍᴇ:* `{}`
 × `{}` *Uꜱᴇʀ, Aᴄʀᴏꜱꜱ* `{}` *Cʜᴀᴛꜱ.*
 ────────────────────────
-✗ *Bot For help You Manage & Protect Your Groups.*
+✗ *Bot For help You Manage & Protect Your Groups[.](https://te.legra.ph/file/ab5b2edf6b82e4c0d2b14.mp4)*
 """
 
 buttons = [
@@ -482,8 +482,7 @@ def yurikorobot_about_callback(update, context):
             f"\n\n✗ `2.) then promote me as admin and give all permissions except anonymous admin.`"
             f"\n\n✗ `3.) add` @YukinoXmusic `to your group:`"
             f"\n\n✗ `4.) turn on the video chat first before start to play music.`"
-            f"\n\n✗ *Lets Enjoy The Yukino Music And Join Support Group @YukinoXSupport*"
-            f"\n\n*✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: [HIRO](https://t.me/HIRO_KUN_14)!*",
+            f"\n\n✗ *Lets Enjoy The Yukino Music And Join Support Group @YukinoXSupport*",                  
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -516,7 +515,7 @@ def yurikorobot_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Lᴏɢ'ꜱ", url="t.me/YulinoXLogs"),
+                    InlineKeyboardButton(text="Lᴏɢ'ꜱ", url="t.me/YukinoXLogs"),
                     InlineKeyboardButton(text="Nᴇᴡꜱ", url="t.me/hiro_kun_14"),
                  ],
                  [
